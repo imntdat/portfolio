@@ -12,4 +12,14 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
+      scss: {
+        additionalData: `@import "@/styles/index.scss";`,
+      },
+    },
+  },
 })

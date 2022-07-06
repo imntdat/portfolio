@@ -1,5 +1,6 @@
 <template>
-  <h1>App</h1>
+  <a-button type="primary">ABC</a-button>
+  <h1 class="hello">Hello</h1>
 </template>
 
 <script lang="ts">
